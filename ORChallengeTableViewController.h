@@ -1,5 +1,5 @@
 //
-//  ORViewController.h
+//  ORChallengeTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Onneile Rachaka on 27/08/2014.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ORViewController : UIViewController
+@interface ORChallengeTableViewController : UITableViewController
 
 @end

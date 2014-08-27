@@ -14,13 +14,13 @@
 		7CC73DE019AE73B9006C6D93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC73DDF19AE73B9006C6D93 /* main.m */; };
 		7CC73DE419AE73BA006C6D93 /* ORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC73DE319AE73BA006C6D93 /* ORAppDelegate.m */; };
 		7CC73DE719AE73BA006C6D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC73DE519AE73BA006C6D93 /* Main.storyboard */; };
-		7CC73DEA19AE73BA006C6D93 /* ORViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC73DE919AE73BA006C6D93 /* ORViewController.m */; };
 		7CC73DEC19AE73BA006C6D93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC73DEB19AE73BA006C6D93 /* Images.xcassets */; };
 		7CC73DF319AE73BA006C6D93 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC73DF219AE73BA006C6D93 /* XCTest.framework */; };
 		7CC73DF419AE73BA006C6D93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC73DD319AE73B9006C6D93 /* Foundation.framework */; };
 		7CC73DF519AE73BA006C6D93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC73DD719AE73B9006C6D93 /* UIKit.framework */; };
 		7CC73DFD19AE73BA006C6D93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CC73DFB19AE73BA006C6D93 /* InfoPlist.strings */; };
 		7CC73DFF19AE73BA006C6D93 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC73DFE19AE73BA006C6D93 /* UITableViewController_Challenge_SolutionTests.m */; };
+		7CC73E0A19AE799A006C6D93 /* ORChallengeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC73E0919AE799A006C6D93 /* ORChallengeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		7CC73DE219AE73B9006C6D93 /* ORAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORAppDelegate.h; sourceTree = "<group>"; };
 		7CC73DE319AE73BA006C6D93 /* ORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORAppDelegate.m; sourceTree = "<group>"; };
 		7CC73DE619AE73BA006C6D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CC73DE819AE73BA006C6D93 /* ORViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORViewController.h; sourceTree = "<group>"; };
-		7CC73DE919AE73BA006C6D93 /* ORViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORViewController.m; sourceTree = "<group>"; };
 		7CC73DEB19AE73BA006C6D93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CC73DF119AE73BA006C6D93 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC73DF219AE73BA006C6D93 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7CC73DFA19AE73BA006C6D93 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		7CC73DFC19AE73BA006C6D93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CC73DFE19AE73BA006C6D93 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		7CC73E0819AE799A006C6D93 /* ORChallengeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORChallengeTableViewController.h; path = ../ORChallengeTableViewController.h; sourceTree = "<group>"; };
+		7CC73E0919AE799A006C6D93 /* ORChallengeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORChallengeTableViewController.m; path = ../ORChallengeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				7CC73DE219AE73B9006C6D93 /* ORAppDelegate.h */,
 				7CC73DE319AE73BA006C6D93 /* ORAppDelegate.m */,
 				7CC73DE519AE73BA006C6D93 /* Main.storyboard */,
-				7CC73DE819AE73BA006C6D93 /* ORViewController.h */,
-				7CC73DE919AE73BA006C6D93 /* ORViewController.m */,
+				7CC73E0819AE799A006C6D93 /* ORChallengeTableViewController.h */,
+				7CC73E0919AE799A006C6D93 /* ORChallengeTableViewController.m */,
 				7CC73DEB19AE73BA006C6D93 /* Images.xcassets */,
 				7CC73DDA19AE73B9006C6D93 /* Supporting Files */,
 			);
@@ -252,7 +252,7 @@
 			files = (
 				7CC73DE019AE73B9006C6D93 /* main.m in Sources */,
 				7CC73DE419AE73BA006C6D93 /* ORAppDelegate.m in Sources */,
-				7CC73DEA19AE73BA006C6D93 /* ORViewController.m in Sources */,
+				7CC73E0A19AE799A006C6D93 /* ORChallengeTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
